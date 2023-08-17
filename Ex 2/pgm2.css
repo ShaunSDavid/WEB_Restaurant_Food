@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+.heading {
+  position: relative;
+  font-family: sans-serif;
+  z-index: 2;
+}
+.food {
+  position: relative;
+  z-index: 2;
+}
+.food:hover {
+  border-radius: 10%;
+  transition: 0.5s;
+}
+.bgimg {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+p {
+  position: relative;
+  font-size: x-large;
+  font-weight: bold;
+  z-index: 2;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
