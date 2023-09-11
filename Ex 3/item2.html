@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            padding:10px;
+            margin-left: 20px;
+            margin-top: 20px;
+            box-sizing: border-box;
+        }
+        body{
+            transition: backgroundColor 1s;
+        }
+        #submitt{
+            background-color: #fff;
+            border: none;
+            color: rgb(3, 55, 197);
+            border-radius: 10px;
+            cursor: pointer;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-left: 4px;
+            margin-right: 4px;
+            font-weight: bold;
+        }
+        #submitt:hover{
+            background-color:  rgb(7, 43, 78);
+            border-color: black;
+            color:#fff;
+        }
+        
+    </style>
+    <script>
+        function changeColor() {
+            const colorInput = document.getElementById('favcolor').value;
+            const body = document.querySelector('body');
+
+            if (isValidColor(colorInput)) {
+                body.style.backgroundColor = colorInput;
+                
+            } else {
+                alert('Invalid color format. Please use a valid color code (e.g., #RRGGBB or color name).');
+            }
+        }
+
+        // Function to validate color input
+        function isValidColor(color) {
+            const colorRegex = /^#([0-9A-Fa-f]{6}|[0-9A-Fa-f]{3})$/i;
+            return colorRegex.test(color);
+        }
+    </script>
+</head>
+<body>
+    <div class="submitted">
+    <form  method="get">
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="name" class="input1"><br><br><br>
+        <label for="favcolor">Select your favorite Icecream color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#000000">
+        <br><br><br>
+        <input type="submit" value="Submit" id="submitt" onclick="changeColor();">
+    </form>
+</div>
+</body>
+</html>

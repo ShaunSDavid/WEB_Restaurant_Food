@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 2%;
+        }
+
+        .container1{
+            display: block;
+            margin-left: -20px;
+        }
+        .input1{
+            padding: 10px;
+        }
+        #submitt{
+            background-color: #fff;
+            border: none;
+            color: rgb(3, 55, 197);
+            border-radius: 10px;
+            cursor: pointer;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-left: 4px;
+            margin-right: 4px;
+            font-weight: bold;
+        }
+        #submitt:hover{
+            background-color:  rgb(7, 43, 78);
+            border-color: black;
+            color:#fff;
+        }
+    </style>
+    <script src="p1.js"></script>
+</head>
+<body>
+    <div class="formfull" onsubmit="return result();">
+    <form  id="ipform" method="get">
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="name" class="input1">
+        <div class="container1">
+        <label for="favclub" >Enlighten With your taste in food!!!!</label>
+        </div>
+        <input type="radio" name="favclub" id="favclub1" value="Kachori">
+        <label for="favclub1">Kachori</label><br>
+        <input type="radio" name="favclub" id="favclub2" value="Jalebi">
+        <label for="favclub2">Jalebi</label><br>
+        <input type="radio" name="favclub" id="favclub3" value="Pakora">
+        <label for="favclub3">Pakora</label><br>
+        <input type="radio" name="favclub" id="favclub4" value="Chaat">
+        <label for="favclub4">Chaat & Pani Puri</label><br>
+        <input type="radio" name="favclub" id="favclub5" value="Vadapav">
+        <label for="favclub5">Vada Pav</label><br>
+        <input type="radio" name="favclub" id="favclub6" value="Idli">
+        <label for="favclub6">Idli</label><br>
+        <input type="radio" name="favclub" id="favclub7" value="Naan">
+        <label for="favclub7">Parotta & Naan</label><br>
+        <input type="submit" value="Submit" id="submitt">
+        
+    </form>
+</div>
+</body>
+</html>

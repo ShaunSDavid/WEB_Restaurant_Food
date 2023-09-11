@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .forms input,label{
+            display: block;
+        }
+        #submitt{
+            background-color: #fff;
+            border: none;
+            color: rgb(3, 55, 197);
+            border-radius: 10px;
+            cursor: pointer;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-left: 4px;
+            margin-right: 4px;
+            font-weight: bold;
+        }
+        #submitt:hover{
+            background-color:  rgb(7, 43, 78);
+            border-color: black;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <!--This just gets the index vale of your directory-->
+    <form action="/" method="get" class="forms">
+        <h3>Enter the specific details for your dish</h3>
+        <label for="block">Spiceness (1-10):</label>
+        <input type="range" id="block" name="block" min="1" max="10" value="1">
+        <label for="block">Tanginess (1-10) :</label>
+        <input type="range" id="block" name="block" min="1" max="10" value="1">
+        <label for="block">Sweetness (1-10) :</label>
+        <input type="range" id="block" name="block" min="1" max="10" value="1">
+        <label for="block">Sourness (1-10) :</label>
+        <input type="range" id="block" name="block" min="1" max="10" value="1">
+        <input type="submit" value="Submit" id="submitt">        
+    </form>
+</body>
+</html>
