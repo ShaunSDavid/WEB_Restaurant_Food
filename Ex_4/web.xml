@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<web-app>
+    <servlet>
+        <servlet-name>sample</servlet-name>
+        <servlet-class>db1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sample</servlet-name>
+        <url-pattern>/sample</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>sample1</servlet-name>
+        <servlet-class>db2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sample1</servlet-name>
+        <url-pattern>/sample1</url-pattern>
+    </servlet-mapping>
+</web-app>

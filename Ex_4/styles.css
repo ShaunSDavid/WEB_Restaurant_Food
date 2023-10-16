@@ -1,0 +1,40 @@
+body{
+    background-color:#E2725B;
+}
+#cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#E2725B;
+    font-size: large;
+    margin-top: 150px;
+}
+#head{
+    background-color: black;
+    color: ivory;
+    padding: 10px;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left:0;
+    text-align: center;
+    z-index: 1000; 
+}
+button{
+    background-color:#FFD700;
+    border-radius: 10px;
+    height: 30px;
+    font-size: large;
+}
+#submit{
+    background-color:#FFD700;
+    border-radius: 10px;
+    height: 30px;
+    font-size: large;
+}
+button:hover{
+    cursor: pointer;
+}
+#submit:hover{
+    cursor:pointer;
+}

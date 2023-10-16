@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+</html>
+<head>
+    <title>
+        Login Page
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="head">
+        <h1>Le Meridian</h1>    
+    </div>
+    <div id="cont">
+        <h1>"Savor the Best of the Best: Dive into Le Meridien's Culinary World."</h1>
+        <h2>Reserve your table</h2>
+        <form action="http://localhost:8080/test/sample" method="post">
+            <p>Name:
+            <!-- Create an element with mandatory name attribute,
+            so that data can be transfer to the servlet using getParameter() -->
+            <input type="text" name="client" id="n_client"/></p>
+            <p>No of People:
+            <input type="text" name="nop"/></p>
+            <p>Time:
+            <input type="text" name="time"/></p> 
+            <p>Phone:
+            <input type="text" name="phone"/></p> 
+            <br>
+            <label for="cusine">Cuisine</label>
+            <select id="cusine" name="cusine">
+            <option value="empty"></option>
+            <option value="Continental">Continental</option>
+            <option value="Italian">Italian</option>
+            <option value="Chinese">Chinese</option>
+            <option value="Indian">Indian</option></select>
+            <br>
+            <br>
+            <input type="submit" id="submit"/>
+        </form>
+    </div>
+</body>
+</html>
