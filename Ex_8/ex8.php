@@ -37,7 +37,7 @@
             <th>Dish</th>
             <th>Main Ingredients</th>
             <th>Region</th>
-            <th>Popular Pairings</th>
+            <th>Popular Pairs</th>
         </tr>
         <?php
             // Load the XML file
