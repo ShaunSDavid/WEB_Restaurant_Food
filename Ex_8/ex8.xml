@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indian_cuisine>
+    <dish>
+        <name>Butter Chicken</name>
+        <type>Non-Vegetarian</type>
+        <ingredients>Chicken, Tomato, Cream</ingredients>
+        <region>Punjab</region>
+        <pairings>
+            <pairing>Naan</pairing>
+            <pairing>Rice</pairing>
+        </pairings>
+    </dish>
+    <dish>
+        <name>Masala Dosa</name>
+        <type>Vegetarian</type>
+        <ingredients>Urad Dal, Rice, Potatoes</ingredients>
+        <region>South India</region>
+        <pairings>
+            <pairing>Coconut Chutney</pairing>
+            <pairing>Sambar</pairing>
+        </pairings>
+    </dish>
+    <dish>
+        <name>Pani Puri</name>
+        <type>Street Food</type>
+        <ingredients>Chickpeas, Puri, Tamarind Water</ingredients>
+        <region>Maharashtra</region>
+        <pairings>
+            <pairing>Chaat Masala</pairing>
+            <pairing>Mint Chutney</pairing>
+        </pairings>
+    </dish>
+    <dish>
+        <name>Chole Bhature</name>
+        <type>Vegetarian</type>
+        <ingredients>Chickpeas, Flour, Spices</ingredients>
+        <region>Punjab</region>
+        <pairings>
+            <pairing>Pickles</pairing>
+            <pairing>Lassi</pairing>
+        </pairings>
+    </dish>
+    <dish>
+        <name>Biryani</name>
+        <type>Non-Vegetarian</type>
+        <ingredients>Rice, Chicken, Spices</ingredients>
+        <region>Various</region>
+        <pairings>
+            <pairing>Raita</pairing>
+            <pairing>Mirchi ka Salan</pairing>
+        </pairings>
+    </dish>
+    <dish>
+        <name>Mango Lassi</name>
+        <type>Drink</type>
+        <ingredients>Mango, Yogurt, Sugar</ingredients>
+        <region>Various</region>
+        <pairings>
+            <pairing>None</pairing>
+        </pairings>
+    </dish>
+</indian_cuisine>
